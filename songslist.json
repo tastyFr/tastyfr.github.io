@@ -396,11 +396,20 @@
   },
   {
     "title": "Mask",
-    "source": "Dream",
+    "source": "Dream, Perish, BanRisk",
     "genre": "pop",
     "links": {
-      "midi": "songs/pop/Dream_-_Mask/Dream_-_Mask.mid",
-      "sheet": "songs/pop/Dream_-_Mask/Dream_-_Mask.pdf"
+      "midi": "songs/pop/Dream,_Perish,_BanRisk_-_Mask/Dream_-_Mask.mid",
+      "sheet": "songs/pop/Dream,_Perish,_BanRisk_-_Mask/Dream_-_Mask.pdf"
+    }
+  },
+  {
+    "title": "Roadtrip",
+    "source": "Dream, Perish, BanRisk ft. PmBata",
+    "genre": "pop",
+    "links": {
+      "midi": "songs/pop/Dream,_Perish,_BanRisk_ft._PmBata_-_Roadtrip/Dream_ft._PmBata_-_Roadtrip.mid",
+      "sheet": "songs/pop/Dream,_Perish,_BanRisk_ft._PmBata_-_Roadtrip/Dream_ft._PmBata_-_Roadtrip.pdf"
     }
   },
   {
@@ -410,15 +419,6 @@
     "links": {
       "midi": "songs/pop/Dream_ft._Alec_Benjamin_-_Change_My_Clothes/Dream_&_Alec_Benjamin_-_Change_My_Clothes.mid",
       "sheet": "songs/pop/Dream_ft._Alec_Benjamin_-_Change_My_Clothes/Dream_&_Alec_Benjamin_-_Change_My_Clothes.pdf"
-    }
-  },
-  {
-    "title": "Roadtrip",
-    "source": "Dream ft. PmBata",
-    "genre": "pop",
-    "links": {
-      "midi": "songs/pop/Dream_ft._PmBata_-_Roadtrip/Dream_ft._PmBata_-_Roadtrip.mid",
-      "sheet": "songs/pop/Dream_ft._PmBata_-_Roadtrip/Dream_ft._PmBata_-_Roadtrip.pdf"
     }
   },
   {
