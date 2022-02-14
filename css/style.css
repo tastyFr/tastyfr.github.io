@@ -1,0 +1,196 @@
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+table {
+  width: 100% !important;
+}
+
+.brand-logo,
+h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  font-size: 96pt;
+}
+
+#tooSmall {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: calc(48px + 80 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #songsBox {
+    display: none;
+  }
+
+  #tooSmall {
+    display: block;
+  }
+}
+
+.myblack {
+  background-color: #151515;
+}
+
+.mygray-dark {
+  background-color: #2c2b31;
+}
+
+.mygray-dim {
+  background-color: #4e4c57;
+}
+
+.mygray-normal {
+  background-color: #706d7d;
+}
+
+.mywhite {
+  background-color: #e8ddff;
+}
+
+.mywhite-text {
+  color: white;
+}
+
+.bg {
+  background-image: url('../images/bg_cover.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover,
+.btn-flat:hover {
+  background-color: #706d7d !important;
+}
+
+.btn:focus,
+.btn-large:focus,
+.btn-small:focus,
+.btn-flat:focus {
+  background-color: #4e4c57 !important;
+}
+
+.waves-effect.mywaves-light .waves-ripple {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.chip {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  padding: 0 25px;
+}
+
+.chip.twitter,
+.chip.twitter:focus {
+  background-color: #1da1f2;
+}
+
+.chip.youtube,
+.chip.youtube:focus {
+  background-color: #ff0000;
+}
+
+.chip.github,
+.chip.github:focus {
+  background-color: #333;
+}
+
+.chip.musescore,
+.chip.musescore:focus {
+  background-color: #2e68c0;
+}
+
+.chip.twitter:hover {
+  background-color: #167fbf;
+}
+
+.chip.youtube:hover {
+  background-color: #cc0000;
+}
+
+.chip.github:hover {
+  background-color: #000;
+}
+
+.chip.musescore:hover {
+  background-color: #214c8d;
+}
+
+.page-footer .footer-copyright {
+  background-color: #45434c;
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+input {
+  color: white;
+}
+
+input:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+.caret {
+  fill: white !important;
+}
+
+.select-dropdown.dropdown-content li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.select-dropdown.dropdown-content li.selected {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.dropdown-content {
+  background-color: #2c2b31;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: white;
+}
+
+.dropdown-content li:hover,
+.dropdown-content li.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dataTables_empty {
+  text-align: center;
+}
+
+.divider {
+  background-color: rgba(255, 255, 255, 0.25);
+}
