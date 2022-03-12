@@ -404,6 +404,15 @@
     }
   },
   {
+    "title": "why did the chicken cross the road",
+    "source": "CG5",
+    "genre": "pop",
+    "links": {
+      "midi": "songs/pop/CG5_-_why_did_the_chicken_cross_the_road/CG5_-_why_did_the_chicken_cross_the_road_(Piano_Solo).mid",
+      "sheet": "songs/pop/CG5_-_why_did_the_chicken_cross_the_road/CG5_-_why_did_the_chicken_cross_the_road_(Piano_Solo).pdf"
+    }
+  },
+  {
     "title": "Mask",
     "source": "Dream, Perish, BanRisk",
     "genre": "pop",
